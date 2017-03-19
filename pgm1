@@ -1,0 +1,6 @@
+set l=`wc -l test1`
+export l
+echo $l
+for i in {1..10}
+do echo $i
+done
